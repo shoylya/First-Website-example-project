@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    z-index: 0;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+main{
+    margin-top: 70px;
+}
+footer{
+    background-color: #222222;
+}

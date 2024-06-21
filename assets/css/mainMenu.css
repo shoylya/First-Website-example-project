@@ -1,0 +1,93 @@
+.menu{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 112px 0px;
+} 
+.text-before-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+
+}
+.menu div h4{
+    font-weight: 300;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    margin: 0px 0px 8px;
+    line-height: 1.1;
+}
+.menu .text-before-button p{
+   text-align: center;
+    font-size: 20px;
+    margin: 0px 0px 24px;
+    color: #b8b8b8;
+    line-height: 25px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button button{
+    margin: 0px 10px;
+    background: none ;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .2em;
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 8px 16px;
+}
+#breakfast{
+    width: 140px;
+    height: 42px;
+}
+.button button:active{
+    background: none ;
+    color: black ;
+    border: 2px solid #000;
+}
+.container-for-menu img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 0px 16px 0px 0px;
+}
+.container-for-menu{
+    display: flex;
+    margin: 50px 60px;
+    padding: 0px 100px 0px  0px;
+}
+.container-for-menu div figure{
+    display: flex;
+    height: 164px;
+    width: 520px;
+}
+.first-figure{
+    padding-right: 110px;
+}
+.container-for-menu div figure h2{
+    font-family: serif;
+    font-size: 22px;
+    margin: 0px 0px 8px;
+}
+.container-for-menu div figure p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    color: #b8b8b8;
+    line-height: 15px;
+    width: 440px;
+    line-height: 20px;
+}
+.second-figure{
+    padding-left: 100px;
+}
+.container-for-menu div figure h3{
+    font-family: serif;
+    color: #fda403;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 0px 8px;
+}

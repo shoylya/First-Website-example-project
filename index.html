@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="style.css">
+    <title>Eatwell-website-example</title>
+    <!-- ! Css file links -->
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/header.css">
+<link rel="stylesheet" href="./assets/css/mainWelcome.css">
+<link rel="stylesheet" href="./assets/css/mainStory.css">
+<link rel="stylesheet" href="./assets/css/mainOffers.css">
+<link rel="stylesheet" href="./assets/css/mainMenu.css">
+<link rel="stylesheet" href="./assets/css/mainNews.css">
+<link rel="stylesheet" href="./assets/css/mainGallery.css">
+<link rel="stylesheet" href="./assets/css/mainGetin.css">
+<link rel="stylesheet" href="./assets/css/footer.css">
+<!-- & Google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- ? Header section -->
     <header>
         <button type="submit" class="submit"><a href="http://">EatWell</a></button>
         <ul class="panel">
@@ -21,13 +33,29 @@
             <li> <a href="#gallery">GALLERY</a></li>
             <li><a href="#about">CONTACT</a></li>
         </ul>
+        <!-- * dropdown for media -->
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+            <a href="#welcome">HOME</a>
+            <a href="#story">ABOUT</a>
+            <a href="#offer">OFFER</a>
+            <a href="#menu">MENU</a>
+            <a href="#news">NEWS</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#about">CONTACT</a>
+            </div>
+          </div>
     </header>
+    <!-- ^ Main section  -->
     <main>
+        <!-- & Welcome section -->
         <section class="welcome" id="welcome">
             <h1>Welcome To EatWell</h1>
             <p>Come and eat well with our delicious & healthy foods.</p>
             <button>Reservation</button>
         </section>
+        <!-- ! Story section -->
         <section class="story" id="story">
             <div class="story-text">
                 <h4 class="other_design">Our story</h4>
@@ -37,9 +65,10 @@
                 <button>Learn More About Us</button>
             </div>
             <div>
-                <img src="./img/povarscashkoy.webp" alt="">
+                <img src="./assets/img/povarscashkoy.webp" alt="">
             </div>
         </section>
+        <!-- * Offers section -->
         <section class="offers" id="offer">
             <div class="text-before-menu">
                 <span class="other_design">OUR OFFERS</span>
@@ -48,7 +77,7 @@
             </div>
             <div class="figure">
                 <figure>
-                    <img src="img/offer_1.jpg.webp" alt="">
+                    <img src="./assets/img/offer_1.jpg.webp" alt="">
                 <figcaption>
                     <h2>$39.50</h2>
                     <h5>Beef with Sauce</h5>
@@ -56,8 +85,8 @@
                     <button>Order Now!</button>
                 </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/offer_2.jpg.webp" alt="">
+                <figure class="ffigure">
+                    <img src="./assets/img/offer_2.jpg.webp" alt="">
                 <figcaption>
                     <h2>$39.50</h2>
                     <h5>Fresh Salmon Fish</h5>
@@ -65,8 +94,8 @@
                     <button>Order Now!</button>
                 </figcaption>
                 </figure>
-                <figure>
-                    <img src="img/offer_3.jpg.webp" alt="">
+                <figure class="ffigure">
+                    <img src="./assets/img/offer_3.jpg.webp" alt="">
                 <figcaption>
                     <h2>$19.50</h2>
                     <h5>Beef Ribs</h5>
@@ -76,6 +105,7 @@
                 </figure>
             </div>
         </section>
+        <!-- ! Menu section -->
         <section id="menu" class="menu">
             <div class="text-before-button">
             <h4>Delicious Menu</h4>
@@ -89,7 +119,7 @@
         <div class="container-for-menu">
             <div>
             <figure class="first-figure">
-                <img src="img/menu_1.jpg.webp" alt="">
+                <img src="./assets/img/menu_1.jpg.webp" alt="">
                 <figcaption>
                     <h2>Salted Fried Chicken</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -97,7 +127,7 @@
                 </figcaption>
             </figure>
             <figure class="first-figure">
-                <img src="img/menu_2.jpg.webp" alt="">
+                <img src="./assets/img/menu_3.jpg.webp" alt="">
             <figcaption>
                 <h2>Italian Sauce Mushroom</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -105,7 +135,7 @@
             </figcaption>
             </figure>
             <figure class="first-figure">
-                <img src="img/menu_2.jpg.webp" alt="">
+                <img src="./assets/img/menu_2.jpg.webp" alt="">
                 <figcaption>
                     <h2>Italian Sauce Mushroom</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -116,7 +146,7 @@
             <!-- #region end for the first three figures-->
             <div>
             <figure class="second-figure">
-                <img src="img/menu_1.jpg.webp" alt="">
+                <img src="./assets/img/menu_1.jpg.webp" alt="">
                 <figcaption>
                 <h2>Salted Fried Chicken</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -124,7 +154,7 @@
                 </figcaption>
             </figure>
             <figure class="second-figure">
-                <img src="img/menu_3.jpg.webp" alt="">
+                <img src="./assets/img/menu_2.jpg.webp" alt="">
             <figcaption>
                 <h2>Fried Potato w/ Garlic</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -132,7 +162,7 @@
             </figcaption>
             </figure>
             <figure class="second-figure">
-                <img src="img/menu_3.jpg.webp" alt="">
+                <img src="./assets/img/menu_3.jpg.webp" alt="">
             <figcaption>
                     <h2>Fried Potato w/ Garlic</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -142,6 +172,7 @@
         </div>
         </div>
         </section>
+        <!-- ! News section -->
         <section id="news" class="news">
             <div class="text-beforenews">
                 <h1>News</h1>
@@ -149,7 +180,7 @@
             </div>
             <div class="figure-tags">
                 <figure>
-                    <img src="img/offer_1.jpg.webp" alt="">
+                    <img src="./assets/img/offer_1.jpg.webp" alt="">
                     <figcaption>
                     <h5>We Have Dilecious <br> Food</h5>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -157,7 +188,7 @@
                 </figcaption>
                 </figure>
                 <figure>
-                    <img src="img/offer_2.jpg.webp" alt="">
+                    <img src="./assets/img/offer_2.jpg.webp" alt="">
                     <figcaption>
                     <h5>Chef Special Menu</h5>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -165,7 +196,7 @@
                 </figcaption>
                 </figure>
                 <figure>
-                    <img src="img/offer_3.jpg.webp" alt="">
+                    <img src="./assets/img/offer_3.jpg.webp" alt="">
                 <figcaption>
                     <h5>Merriage Celebrations</h5>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -174,6 +205,7 @@
                 </figure>
             </div>
         </section>
+        <!-- ! Gallery section -->
         <section   id="gallery" class="gallery">
         <div class="tex-before-gallery">
 
@@ -181,14 +213,15 @@
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
         <div class="div-for-img">
-            <img src="img/menu_1.jpg.webp" alt="">
-            <img src="img/menu_2.jpg.webp" alt="">
-            <img src="img/menu_3.jpg.webp" alt="">
-            <img src="img/menu_2.jpg.webp" alt="">
-            <img src="img/menu_3.jpg.webp" alt="">
-            <img src="img/menu_1.jpg.webp" alt="">
+            <img src="./assets/img/menu_1.jpg.webp" alt="">
+            <img src="./assets/img/menu_2.jpg.webp" alt="">
+            <img src="./assets/img/menu_3.jpg.webp" alt="">
+            <img src="./assets/img/menu_2.jpg.webp" alt="">
+            <img src="./assets/img/menu_3.jpg.webp" alt="">
+            <img src="./assets/img/menu_1.jpg.webp" alt="">
         </div>
         </section>
+        <!-- ! Get-in section -->
         <section class="get-in">
             <div class="text-before-get">
             <h2>Get In Touch</h2>
@@ -202,7 +235,7 @@
                 <button>Send Message</button>
             </div>
             <div class="image-text">
-                <img src="img/povarscashkoy.webp" alt="">
+                <img src="./assets/img/povarscashkoy.webp" alt="">
                 <p>Address: <br>
                     121 Street, Melbourne Victoria <br>
                     3000 Australia</p>
@@ -216,6 +249,7 @@
         </div>
         </section>
     </main>
+    <!-- ^ Footer -->
     <footer>
         <section id="about" class="about">
             <div class="lorem">
