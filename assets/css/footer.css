@@ -69,3 +69,79 @@
     padding-bottom: 150px;
 
 }
+@media (max-width: 425px) {
+    footer{
+        width: 1700px;
+    }
+    .about{
+        font-size: 16px;
+        padding: 112px 0px;
+        padding-left: 100px;
+        z-index: 1;
+    }
+    .about h4{
+        color: #ffffff99;
+        font-size: 14px;
+        margin: 0px 0px 8px;
+        font-weight: 600;
+        font-family: serif;
+    }
+    .about p,span{
+        color: #FFFFFF4D    ;
+    }
+    .about p{
+        font-size: 16px;
+        margin: 0px 0px 16px;
+    }
+    .about span{
+        line-height: 44px;
+    }
+    .about span:hover{
+        cursor: pointer;
+        transition: 0.6s;
+        color: #FDA403;
+    }
+    .about{
+        display: flex;
+        gap: 00px;
+    }
+    .about div{
+        display: flex;
+        flex-direction: column;
+    }
+    .about div p{
+        width: 350px;
+        line-height: 30px;
+    }
+    .icons i{
+        color: #808080;
+        font-size: 25px;
+        padding-top: 17px;
+        text-align: center;
+        height: 60px;
+        width: 60px;
+        display: block;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+        margin-top: -45px;
+    }
+    .icons i:hover{
+        transition: 0.3s;
+        color: white;
+        cursor: pointer;
+    }
+    .Copyright{
+        height: 82px;
+        text-align: center;
+        padding-top: 35px;
+        color: #808080;
+        padding-bottom: 150px;
+    
+    }
+}

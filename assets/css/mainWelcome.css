@@ -53,7 +53,7 @@
 @media (max-width: 425px) {
     
     .welcome {
-        width: 1300px;
+        min-width: 1600px;
         height: 800px;
         /* background-size: cover;
         object-fit: cover; */

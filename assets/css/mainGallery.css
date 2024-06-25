@@ -31,3 +31,41 @@
  .div-for-img{
      margin-left: 90px;
  }
+ @media (max-width: 425px) {
+     .tex-before-gallery{
+         margin-top: 100px;
+         margin-bottom: 80px;
+     }
+     
+     .tex-before-gallery h2{
+         font-size: 87px;
+         font-family: serif;
+         font-weight: 500;
+         width: 100%;
+         text-align: center ;
+         margin-left: 650px;
+         margin-bottom: 15px;
+
+     }
+     .tex-before-gallery p{
+         height: auto;
+         width: 900px;
+         margin-left: 440px;
+         color: #b8b8b8;
+         line-height: 50px;
+         font-weight: 400;
+         font-size:40px;
+         text-align: center;
+         
+     }
+    
+      .gallery img {
+         padding: 4px;
+         width: 700px;
+         height:700px;
+     }
+     .div-for-img{
+         margin-left: 90px;
+         display: flex;
+     }
+ }

@@ -86,3 +86,88 @@
     margin: 0px 0px 16px;
     line-height: 23px;
 }
+@media (max-width: 425px) {
+    .get-in{
+        width: 1700px;
+        background-color: #f8f9fa ;
+        padding-bottom: 100px;
+    }
+    .text-before-get h2{
+        font-size: 87px;
+        font-family: serif;
+        font-weight: 500;
+        width: 1000px;
+        margin-left: 300px;
+    }
+    .text-before-get p{
+        height: auto;
+        width: 1200px;
+        margin-left: 240px;
+        margin-top: 20px;
+        color: #b8b8b8;
+        line-height: 50px;
+        font-weight: 400;
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    .flex-inputs-and-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-in img{
+        width: 370px;
+        height: auto;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-family: serif;
+    
+    }
+    .inputs input{
+        font-size: 58px;
+        outline: none;
+        margin-bottom: 25px;
+       width: 1400px;
+       margin-left: 100px;
+        background-color: #e6e6e6;
+        color: #c0c0c097;
+        border: none;
+    }
+    .firstinput{
+        padding: 8px 12px;
+        height: 105px;
+    }
+    .message{
+        height: 341px;
+        display: block;
+        width: 100%;
+        padding: 1px 0px 200px 10px;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+    .inputs button{
+        height: 101px;
+        width: 481px;
+        margin-left: 550px;
+        font-size: 68px !important;
+        padding: 13px 20px;
+        margin-top: 80px;
+    }
+    .image-text img{
+     margin: 100px 0px 20px 300px;
+        width: 1000px;
+     
+    }
+    .image-text p{
+        font-size: 60px;
+        margin: 0px 0px 106px;
+        margin-left: 300px;
+        line-height: 73px;
+    }
+
+
+
+}

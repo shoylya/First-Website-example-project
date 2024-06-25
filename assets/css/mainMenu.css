@@ -91,3 +91,76 @@
     font-weight: 600;
     margin: 0px 0px 8px;
 }
+@media (max-width: 425px) {
+    .text-before-button{
+        margin-left: 600px;
+        margin-bottom: 22px;
+        width: 100%;
+    }
+    .menu div h4{
+        font-weight: 500;
+        font-size: 90px;
+        margin: 0px 0px 16px;
+        line-height: 1.1;
+        width: 600px;
+    }
+    .menu .text-before-button p{
+       text-align: center;
+        font-size: 40px;
+        margin: 30px 0px 44px;
+        line-height: 55px;
+        width: 1200px;
+    }
+    .button{
+        display: flex ; 
+        flex-direction: row;
+        justify-content: center ;
+        width: 1600px;
+    }
+    .button button{
+        margin: 0px 30px;
+        font-size: 34px;
+        letter-spacing: .2em;
+        color: #ccc;
+        border: 2px solid #ccc;
+        padding: 8px 16px;
+    }
+    #breakfast{
+        width: 340px;
+        height: 62px;
+    }
+    .container-for-menu img{
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+    .container-for-menu{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 60px;
+        padding: 0px 100px 0px  0px;
+    }
+    .container-for-menu div figure{
+        display: flex;
+        height: 364px;
+        width: 1600px;
+    }
+    .container-for-menu div figure h2{
+        font-size: 72px;
+        margin: 0px 0px 20px;
+    }
+    .container-for-menu div figure p{
+        font-size: 40px;
+        margin: 0px 0px 30px;
+        width: 1200px;
+        line-height: 50px;
+    }
+    .second-figure{
+        padding-left: 0px;
+    }
+    .container-for-menu div figure h3{
+        font-size: 62px;
+        font-weight: 700;
+        margin: 0px 0px px;
+    }
+}

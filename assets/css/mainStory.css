@@ -59,12 +59,14 @@
 @media (max-width: 425px) {
     .story{
        flex-direction: column-reverse;
-       margin:  0px 150px;
-       text-align: center;
+       margin:  0px 290px;
+       
     }
     .story img{
         width: 1030px;
         margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
     }
     .other_design{
         line-height: 1.45;
