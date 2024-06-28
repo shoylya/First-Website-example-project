@@ -72,7 +72,7 @@ margin: 0px 0px 8px;
 }
 @media (max-width: 425px) {
     .offers{
-    min-width: 1600px;
+    min-width: 1800px;
     }
     .text-before-menu{
         width: 1100px;
@@ -134,4 +134,71 @@ margin: 0px 0px 8px;
         padding: 10px 20px;
         height: 140px;
     }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .offers{
+        background-color: #f8f9fa;
+        padding: 172px 0px;
+        min-height: 300px;
+        min-width: 200%;
+    }
+   
+    .text-before-menu h1{
+        text-align: center;
+        width: 1500px;
+    }
+    .text-before-menu p{
+        margin-left: 400px;
+        width: 700px;
+        font-size: 25px;
+    }
+    .figure{
+        padding: 0px 70px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .figure figure img{
+        width: 360px;
+    }
+    .figure figure {
+        background-color: #ffffff;
+        
+    }
+    .figure figure figcaption{
+        padding: 48px;
+        text-align: center;
+    }
+    .figure figure figcaption h2{
+        color: #fda403;
+        font-size: 20px;
+        margin: 0px 0px 8px;
+    }
+    .figure figure figcaption h5{
+    font-size: 24px;
+    margin: 0px 0px 8px;
+    }
+    .figure figure figcaption p{
+        width: 264px;
+        font-size: 16px;
+        margin: 0px 0px 24px;
+        color: #b8b8b8;
+        line-height: 25px;
+    }
+    .figure button{
+        font-size: 12px;
+        width: 103px;
+        padding: 10px 20px;
+        border: none;
+        background-color: orange;
+        color: #ffffff;
+        height: 40px;
+    }
+    .figure button:hover{
+        cursor: pointer;    
+        background-color: rgb(198, 130, 2);
+        transition: 0.3s;
+    }
+
+
+
 }

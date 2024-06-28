@@ -100,3 +100,22 @@
         margin-left: 300px;
     }
 }
+@media (min-width: 425px) and (max-width: 768px) {
+    .story{
+        min-width: 200%;
+        padding: 128px 0px 0px 0px;
+        display: flex;
+        justify-content: space-evenly !important;
+    }
+    .story p{
+        line-height: 30px;
+        word-spacing: 3px;
+        width: 600px;
+        color: #b8b8b8;
+        font-size: 24px;
+    }
+    .story img{
+        width: 600px;
+        height: auto;
+    }
+}

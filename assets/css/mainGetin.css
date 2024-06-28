@@ -88,7 +88,7 @@
 }
 @media (max-width: 425px) {
     .get-in{
-        width: 1700px;
+        width: 1800px;
         background-color: #f8f9fa ;
         padding-bottom: 100px;
     }
@@ -167,7 +167,92 @@
         margin-left: 300px;
         line-height: 73px;
     }
-
-
-
 }
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .get-in{
+        background-color: #f8f9fa ;
+        padding-bottom: 100px;
+        width: 1600px;
+    }
+    .text-before-get{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .text-before-get h2{
+        width: 1550px;
+        text-align: center;
+    }
+    .text-before-get p{
+        margin-left: 450px;
+        text-align: center;
+        
+    }
+    .flex-inputs-and-img{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .get-in img{
+        width: 370px;
+        height: auto;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-family: serif;
+    
+    }
+    .inputs input{
+        font-size: 18px;
+        outline: none;
+        margin-bottom: 15px;
+        width: 635px;
+        background-color: #e6e6e6;
+        color: #c0c0c097;
+        border: none;
+    }
+    ::placeholder{
+        color: rgb(149, 149, 149);
+    }
+    .firstinput{
+        padding: 8px 12px;
+        height: 55px;
+    }
+    .message{
+        height: 241px;
+        display: block;
+        width: 100%;
+        padding: 1px 0px 200px 10px;
+        font-size: 1rem;
+        line-height: 1.25;
+    
+    }
+    .inputs button{
+        height: 51px;
+        width: 181px;
+        background: #FDA403;
+        border-color: #FDA403;
+        color: #fff;
+        border: none;
+        font-size: 18px !important;
+        padding: 13px 20px;
+        font-family: "Playfair Display", serif;
+    }
+    .inputs button:hover{
+        cursor: pointer;    
+        background-color: rgb(198, 130, 2);
+        transition: 0.3s;
+    }
+    .image-text img{
+        margin-bottom: 20px;
+    }
+    .image-text p{
+        margin: 0px 0px 16px;
+        line-height: 23px;
+    }
+
+
+
+
+} 

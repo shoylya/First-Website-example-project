@@ -66,23 +66,23 @@
 }
 @media (max-width: 425px) {
     .news{
-        min-width: 1600px;
+        background-color: #f8f9fa;
+        padding: 172px 0px;
+        min-height: 300px;
+        min-width: 1800px;
+    }
+    .text-beforenews {
+        text-align: center;
+        width: 1500px;
     }
     .text-beforenews h1{
-        font-size: 87px;
-        padding: 20px 0px; 
         text-align: center;
-        margin-left: 150px;
+        width: 1500px;
     }
     .text-beforenews p{
-        height: auto;
-        margin-left: 340px;
-        line-height: 30px;
-        font-weight: 400;
-        font-size:50px ;
-        line-height: 70px;
-        width: 1000px;
-        margin-bottom: 100px;
+        margin-left: 400px;
+        width: 700px;
+        font-size: 25px;
     }
 
     .news figure img{
@@ -112,4 +112,69 @@
         padding: 10px 20px;
         height: 140px;
     }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .text-beforenews h1{
+        text-align: center;
+        width: 1600px;
+    }
+    .text-beforenews p{
+        margin-left: 450px;
+        width: 700px;
+        font-size: 25px;
+        
+    }
+    .news{
+        background-color: #f8f9fa;
+        padding: 172px 0px;
+        min-height: 300px;
+        min-width: 1600px;
+    }
+    .news figure img{
+        width: 370px;
+    }
+    .news figure {
+        background-color: #ffffff;
+        margin-left: 50px;
+    }
+    .news figure figcaption{
+        padding: 48px;
+        text-align: center;
+    }
+    .news figure figcaption h5{
+        font-size: 24px;
+        margin: 0px 0px 8px;
+    }
+    .news figure figcaption p{
+        width: 264px;
+        font-size: 16px;
+        margin: 0px 0px 24px;
+        color: #b8b8b8;
+        line-height: 25px;
+    }
+    .news button{
+        font-size: 12px;
+        width: 103px;
+        padding: 10px 20px;
+        border: none;
+        background-color: orange;
+        color: #ffffff;
+        height: 40px;
+    }
+    .news button:hover{
+        cursor: pointer;    
+        background-color: rgb(198, 130, 2);
+        transition: 0.3s;
+    } 
+    .news .figure-tags{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* margin-bottom: 22px; */
+        margin-top: 50px;
+        margin-left: 100px;
+        gap: 10px;
+    }
+
 }

@@ -69,3 +69,39 @@
          display: flex;
      }
  }
+ @media (min-width: 425px) and (max-width: 768px) {
+
+    .gallery{
+        margin-bottom: 130px;
+     }
+     .tex-before-gallery{
+         margin-top: 100px;
+         margin-bottom: 80px;
+     }
+     
+     .tex-before-gallery h2{
+        text-align: center;
+        width: 1600px;
+        font-size: 100px;
+     }
+     .tex-before-gallery p{
+         height: auto;
+         width: 900px;
+         margin-left: 350px;
+         color: #b8b8b8;
+         line-height: 30px;
+         font-weight: 400;
+         font-size: 30px;
+         text-align: center;
+     }
+      .gallery img {
+         padding: 2px;
+         width: 600px;
+         height: 600px;
+     }
+     .div-for-img{
+        width: 1500px;
+         display: flex;
+         justify-content: space-between;
+     }
+ }
